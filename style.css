@@ -1,0 +1,100 @@
+#wrapper{
+    position:relative;
+    padding:10px;
+    top:350px;
+    left:781px;
+    border:1px solid #888;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px gray;
+    
+    display:inline-grid;
+    grid-template-columns: repeat(3,7em);
+    grid-auto-rows: 3em;
+    justify-items: center;
+    align-items: center;
+}
+
+#bar{
+    grid-column-start: span 3;
+}
+
+a.buttonClose{
+    cursor: pointer;
+    color: white;
+    border: 1px solid #AEAEAE;
+    border-radius: 30px;
+    background: #605F61;
+    font-size: 22px;
+    line-height: 0px;
+    float:right;
+    
+    padding-left: 3.5px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 3px;
+}
+
+.buttonClose:before{
+    content:"x";
+}
+
+#Button1,#Button2,#Button3,#Button4,#Button5,#Button6,#Button7,#Button8,#Button9{
+    height:30px;
+    width:95px;
+    border:1px solid #888;
+    display:flex;
+    background: #ECECEC;
+    text-align: center;
+}
+
+#ButtonBig1,#ButtonBig2,#ButtonBig3,#ButtonBig4,#ButtonBig5,#ButtonBig6,#ButtonBig7,#ButtonBig8,#ButtonBig9{
+    cursor:pointer;
+    height:30px;
+    width:95px;
+    border:1px solid #888;
+    display:flex;
+    background: #ECECEC;
+}
+
+#text1, #text2, #text3, #text4 , #text5 , #text6, #text7, #text8, #text9 {
+    margin-left: 10px;
+    margin-top: 3px;
+    color: darkblue;
+    font-size: 20px;
+}
+
+#ButtonCheckbox1 input, #ButtonCheckbox2 input, #ButtonCheckbox3 input, #ButtonCheckbox4 input, #ButtonCheckbox5 input, #ButtonCheckbox6 input, #ButtonCheckbox7 input, #ButtonCheckbox8 input, #ButtonCheckbox9 input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#ButtonCheckbox1, #ButtonCheckbox2, #ButtonCheckbox3, #ButtonCheckbox4, #ButtonCheckbox5, #ButtonCheckbox6, #ButtonCheckbox7, #ButtonCheckbox8, #ButtonCheckbox9 {
+    height:7px;
+    width:7px;
+    margin-top: 9px;
+    margin-left: 5px;
+    padding-top:5px;
+    padding-left:5px;
+    outline: 1px solid #888;
+}
+ 
+.checkmark1:after, .checkmark2:after, .checkmark3:after, .checkmark4:after, .checkmark5:after, .checkmark6:after, .checkmark7:after, .checkmark8:after, .checkmark9:after  {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#ButtonCheckbox1 input:checked ~ .checkmark1:after, #ButtonCheckbox2 input:checked ~ .checkmark2:after, #ButtonCheckbox3 input:checked ~ .checkmark3:after, #ButtonCheckbox4 input:checked ~ .checkmark4:after, #ButtonCheckbox5 input:checked ~ .checkmark5:after, #ButtonCheckbox6 input:checked ~ .checkmark6:after, #ButtonCheckbox7 input:checked ~ .checkmark7:after, #ButtonCheckbox8 input:checked ~ .checkmark8:after, #ButtonCheckbox9 input:checked ~ .checkmark9:after {
+    display: block;
+}
+
+#ButtonCheckbox1 .checkmark1:after, #ButtonCheckbox2 .checkmark2:after, #ButtonCheckbox3 .checkmark3:after, #ButtonCheckbox4 .checkmark4:after, #ButtonCheckbox5 .checkmark5:after, #ButtonCheckbox6 .checkmark6:after, #ButtonCheckbox7 .checkmark7:after, #ButtonCheckbox8 .checkmark8:after, #ButtonCheckbox9 .checkmark9:after {
+    position:absolute;
+    width: 5px;
+    height: 10px;
+    content:"X";
+    color:red;
+    margin-left: -4px;
+    margin-top: -8px;
+}
