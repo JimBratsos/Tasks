@@ -8,6 +8,8 @@ right corner of the button
 
 2) Another problem rising with the 1), is that the text is not 100% center alligned. Fixing 1) will automatically fix 2).
 
+3) Checkboxes do not reset after refresh. In order for everything to work/be resetted, you could click the button twice to remove the checkbox
+
 ## Made with
 
 I used Vanilla JS, CSS and HTML. I wanted not to use JQuery for the simple reason that this is a task to show my skills in JavaScript. 
