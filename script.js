@@ -63,7 +63,7 @@ colorChangeSelect=(boxNum)=>{
     var bigButton = document.getElementById(`ButtonBig${boxNum}`);
 
     if((bigButton.style.backgroundColor)==="white"){
-        bigButton.style.background="lightgray";
+        bigButton.style.background="#ECECEC";
     }else{
         bigButton.style.background="white";
     }       
