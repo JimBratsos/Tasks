@@ -50,7 +50,7 @@ In order to check if the component functions correctly, I have created an automa
 
 5. I think the most important change is mobile responsiveness. Tested in numerous physical devices, Firefox's and Google Chrome's mobile view, the component is responsive until the minimum width of 320px ; thus covering most of today's devices.
 
-6.Tested backwards compatibility in browsers. By checking [CanIUse](https://caniuse.com/), I found out that my component is compatible for almost more than 95% of the userbase; leaving only the Opera Mini and IE11 users out. The reason is that I could not find a simple way to support these two, as it would require a vast amount of changes and code adding, because they do not support lots of the features I used. ( for example the much needed template literals, in order for me to add the styles to my buttons ). 
+6. Tested backwards compatibility in browsers. By checking [CanIUse](https://caniuse.com/), I found out that my component is compatible for almost more than 95% of the userbase; leaving only the Opera Mini and IE11 users out. The reason is that I could not find a simple way to support these two, as it would require a vast amount of changes and code adding, because they do not support lots of the features I used. ( for example the much needed template literals, in order for me to add the styles to my buttons ). 
 
 7. Implemented a test which checks if the component is functioning as it is supposed to do so, by using Cypress
 
