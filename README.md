@@ -36,7 +36,7 @@ In order to check if the component functions correctly, I have created an automa
 
 2. After the installation of the modules finishes, using ``` npx cypress open ```, run the Cypress automation tool application.
 
-3. Finally, click on the **cypresstest.spec.js** file that will appear in the app. A new browser window will open and the test will start running. It will be successfull if it has green ticks on the left side of the screen.
+3. Finally, click on the **cypresstest.spec.js** file that will appear in the app under the **Integration Tests**. A new browser window will open and the test will start running. It will be successfull if it has green ticks on the left side of the screen.
 
 ## Updates from previous version:
 
