@@ -1,0 +1,24 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "I successfully completed the tasks that were asked to me. The first task is basically almost an identical component as the one provided to me. As for the second part, the functionality is the same with some minor design differences;",
+  "main": "script.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimBratsos/Tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimBratsos/Tasks/issues"
+  },
+  "homepage": "https://github.com/JimBratsos/Tasks#readme",
+  "devDependencies": {
+    "cypress": "^3.6.1"
+  }
+}
