@@ -1,8 +1,14 @@
-# Tasks- Currency Selector Component
+# Currency Selector Component
 
 ## Description
 
 A component with buttons, which select and unselect a currency, and display it. To select the currency ( for example EUR ), click the respective button. To unselect it, either click the same button again, or the X button that appeared along with the selected currency box.
+
+## Compatibility
+
+This component has been optimized to function well with most of the modern browsers for computer and phone. 
+Tested in various Android and Iphone physical devices, Windows and Linux OS at the following browsers:
+Mozilla Firefox, Google Chrome, Opera, Edge,  Firefox Mobile, Google Chrome mobile, Safari. This component does **not** function well for the IE11 and discontinued Android Browser, due to lack of support in different core features used in my component
 
 ## Instructions 
 
