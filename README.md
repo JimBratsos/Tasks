@@ -9,20 +9,14 @@ A component with buttons, which select and unselect a currency, and display it. 
 ### For obtaining the component
 
 In order to obtain/download the component, the following steps should be done:
- 
- 1. Go to https://github.com/JimBratsos/Tasks/ , which is the repository for my component.
-  1.a. If you want to just download and preview the component, click **"Clone or download"**, and then **"Download ZIP"**. After the download, extract it and, run index.html .
-  1.b. If you want to download and be able to modify and make changes to GitHub, or just download it via the Terminal, click on **"Fork"** instead of **"Clone or download"** and follow the steps below.
+  
+ 1. **---If you do have git and NodeJS on your system already, skip this step---** Make sure you have latest version of git and NodeJS in your system. Depending on your OS you can install them in the following websites : [git](https://git-scm.com/downloads) , [NodeJS](https://nodejs.org/en/download/package-manager/)
 
-2. After fork finishes, it will make a copy of my component which will be available to your repositories. 
+ 2. Go to your Terminal. If you have Windows, type "Command Prompt" in search and run it. If you have Mac or Linux, search for **"Terminal"** and run it instead 
 
-3. **---If you do have git and NodeJS on your system already, skip this step---** Make sure you have latest version of git and NodeJS in your system. Depending on your OS you can install them in the following websites : [git](https://git-scm.com/downloads) , [NodeJS](https://nodejs.org/en/download/package-manager/)
+ 3. Navigate to the directory of your choice using ```cd /my-directory```
 
-4. Go to your Terminal. If you have Windows, type "Command Prompt" in search and run it. If you have Mac or Linux, search for **"Terminal"** and run it instead 
-
-5. Navigate to the directory of your choice using ```cd /my-directory```
-
-6. Execute the command ``` git clone https://github.com/your-github-name/Tasks/ ``` and replace **your-github-name** with your GitHub name. This will create a clone to your current directory.
+ 4. Execute the command ``` git clone https://github.com/JimBratsos/Tasks/ ``` This will create a clone to your current directory.
 
 #### For running the component
 
