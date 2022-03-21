@@ -2,7 +2,7 @@
 
 ## Description
 
-A component with buttons, which select and unselect a currency, and display it. To select the currency ( for example EUR ), click the respective button. To unselect it, either click the same button again, or the X button that appeared along with the selected currency box.
+A component with buttons, which select and unselect a currency, and display it. To select the currency ( for example EUR ), click the respective button. To unselect it, either click the same button again, or the X button that appeared along with the selected currency box. Made as part of an interview to assess my skills. I had an image of the component, and I was called to replicate the exact image with the functionalities mentioned above.
 
 ## Compatibility
 
